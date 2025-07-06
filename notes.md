@@ -14,7 +14,7 @@
 - Ansible primarily manages its hosts via Secure Shell (SSH) and only requires Python to be installed on the target systems (along with some additional Python modules in special cases).
 - Ansible mainly uses YAML as a configuration language.
 - Ansible's core components
-    - *Inventory* is an index of machines that are to be managed by with Ansible, and it usually needs to be created by the user.
-    - *Playbooks* are user-created procedures that describe in individual steps (tasks) how to achieve various configuration goals.
-    - *Modules* are functional units provided by Ansible that perform the actual work. Each step in a playbook is ultimately nothing more than a call to a module.
-    - *Roles* are used to structure larger projects in a modular, maintainable, and reusable way.
+    - **Inventory** is an index of machines that are to be managed by with Ansible, and it usually needs to be created by the user.
+    - **Playbooks** are user-created procedures that describe in individual steps (tasks) how to achieve various configuration goals.
+    - **Modules** are functional units provided by Ansible that perform the actual work. Each step in a playbook is ultimately nothing more than a call to a module.
+    - **Roles** are used to structure larger projects in a modular, maintainable, and reusable way.
