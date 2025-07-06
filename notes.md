@@ -10,5 +10,11 @@
 - *Ansible Community Package* - This is essentially just a meta-distribution that determines the version of the included Ansible Core and the selection and versions of the bundled collections.
 - Supported Python versions
     - There are Ansible requirements related to Python version you use, and you also have to distinguish between the control host and the target host.
+- Ansible is programmed in Python.
 - Ansible primarily manages its hosts via Secure Shell (SSH) and only requires Python to be installed on the target systems (along with some additional Python modules in special cases).
 - Ansible mainly uses YAML as a configuration language.
+- Ansible's core components
+    - *Inventory* is an index of machines that are to be managed by with Ansible, and it usually needs to be created by the user.
+    - *Playbooks* are user-created procedures that describe in individual steps (tasks) how to achieve various configuration goals.
+    - *Modules* are functional units provided by Ansible that perform the actual work. Each step in a playbook is ultimately nothing more than a call to a module.
+    - *Roles* are used to structure larger projects in a modular, maintainable, and reusable way.
