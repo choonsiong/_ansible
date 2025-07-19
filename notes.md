@@ -18,3 +18,4 @@
     - The Ansible core is now called Ansible Core (in version `2.11` and later versions; in version `2.10`, it was briefly called `Ansible-base`).
 - Supported Python versions
     - There are Ansible requirements related to Python version you use, and you also have to distinguish between the control host and the target host.
+- Since Ansible is agentless, you only need to install the Ansible software on the control host.
