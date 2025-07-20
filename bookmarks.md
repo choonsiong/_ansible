@@ -10,3 +10,4 @@
 ### Tools
 
 - [Jinja](https://jinja.palletsprojects.com/en/stable/)
+    - [Template Designer Documentation](https://jinja.palletsprojects.com/en/stable/templates/)
